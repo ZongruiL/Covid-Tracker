@@ -1,3 +1,3 @@
-# Covid-Tracker
+# Music Player
 
-Create a covid-19 tracker for CS5520 personal project 
+Create a Music Player for CS5520 personal project 
