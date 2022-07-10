@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/edit_text_bg.xml" value="0.201" />
+        <entry key="app/src/main/res/drawable/search_icon.xml" value="0.201" />
+        <entry key="app/src/main/res/layout/activity_country_wise_data.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/activity_each_country_data.xml" value="0.182518115942029" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/layout_country_wise.xml" value="0.182518115942029" />
       </map>
     </option>
   </component>

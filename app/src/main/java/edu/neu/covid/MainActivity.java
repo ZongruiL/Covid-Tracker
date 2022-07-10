@@ -4,10 +4,12 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -35,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     LinearLayout lin_countrywise;
 
-    ProgressDialog progressDialog;
+
 
     PieChart pieChart;
     private int int_active_new = 0;
@@ -59,6 +61,14 @@ public class MainActivity extends AppCompatActivity {
         lin_countrywise = findViewById(R.id.activity_world_data_countrywise_lin);
 
         FetchData();
+
+        lin_countrywise.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Toast.makeText(WorldDataActivity.this, "Country wise data", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(MainActivity.this, CountryWiseDataActivity.class));
+            }
+        });
     }
 
     public void FetchData(){

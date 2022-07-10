@@ -14,6 +14,12 @@
         android:theme="@style/Theme.Covid"
         tools:targetApi="31">
         <activity
+            android:name=".EachCountryDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CountryWiseDataActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
